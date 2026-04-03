@@ -5,7 +5,7 @@ import 'CALCULATER_SCREEN/calculater.dart';
 import 'GOALS_SCREEN/goals.dart';
 import 'HOME_SCREEN/home.dart';
 import 'PROFILE_SCREEN/profile.dart';
-import 'TRANSACTION_SCREEN/transaction.dart';
+import 'TRANSACTION_SCREEN/Create.dart';
 
 
 
@@ -26,7 +26,7 @@ class _NavbarSideState extends State<NavbarSide> {
   final List<Widget> _pages = [
     Home(),
     Goals(),
-    Transaction(),
+    AddTransactionPage(),
     Calculater(),
     Profile()
 
@@ -120,6 +120,4 @@ class _NavbarSideState extends State<NavbarSide> {
       navBarStyle: NavBarStyle.style15,
     );
   }
-
-
 }
